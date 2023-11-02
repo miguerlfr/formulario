@@ -36,7 +36,8 @@ function registro() {
         }
         array.push(datos);
     }
-    console.log(array[i]);
+    
+    console.log(array);
     swal("Felicidades", "Te has registrado correctamente", "success");
     op = false;
     document.getElementById("tabla").innerHTML = "";
